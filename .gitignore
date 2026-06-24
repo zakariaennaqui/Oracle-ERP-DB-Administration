@@ -9,7 +9,6 @@
 *.bbl
 *.blg
 *.dvi
-*.pdf
 
 # OS files
 .DS_Store
@@ -22,7 +21,3 @@ desktop.ini
 *~
 .vscode/
 .idea/
-
-# Temporary extraction folders (keep images in assets/ only)
-assets/tp1_imgs/
-assets/tp2_imgs/
