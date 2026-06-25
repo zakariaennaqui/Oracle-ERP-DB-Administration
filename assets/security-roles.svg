@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 406" font-family="Helvetica, Arial, sans-serif">
+<rect x="0" y="0" width="1000" height="406" fill="#FFFFFF"/>
+<text x="500.0" y="32" font-family="Helvetica, Arial, sans-serif" font-size="22" font-weight="700" fill="#1E2530" text-anchor="middle">Modele de Securite — Roles et Privileges</text>
+<text x="500.0" y="52" font-family="Helvetica, Arial, sans-serif" font-size="12.5" fill="#6B7280" text-anchor="middle">Principe du moindre privilege applique par role Oracle</text>
+<rect x="30" y="90" width="180" height="30" fill="#F1F5F9" stroke="#1E2530" stroke-width="1.2"/>
+<text x="40" y="109.0" font-family="Helvetica, Arial, sans-serif" font-size="11.5" font-weight="700" fill="#1E2530">Role Oracle</text>
+<rect x="210" y="90" width="170" height="30" fill="#F1F5F9" stroke="#1E2530" stroke-width="1.2"/>
+<text x="220" y="109.0" font-family="Helvetica, Arial, sans-serif" font-size="11.5" font-weight="700" fill="#1E2530">Profil</text>
+<rect x="380" y="90" width="170" height="30" fill="#F1F5F9" stroke="#1E2530" stroke-width="1.2"/>
+<text x="390" y="109.0" font-family="Helvetica, Arial, sans-serif" font-size="11.5" font-weight="700" fill="#1E2530">Utilisateur(s) associe(s)</text>
+<rect x="550" y="90" width="430" height="30" fill="#F1F5F9" stroke="#1E2530" stroke-width="1.2"/>
+<text x="560" y="109.0" font-family="Helvetica, Arial, sans-serif" font-size="11.5" font-weight="700" fill="#1E2530">Privileges accordes</text>
+<rect x="30" y="120" width="180" height="64" fill="#FFFFFF" stroke="#1E2530" stroke-width="1"/>
+<text x="40" y="156.0" font-family="Helvetica, Arial, sans-serif" font-size="11.5" font-weight="700" fill="#2563EB">role_admin</text>
+<rect x="210" y="120" width="170" height="64" fill="#FFFFFF" stroke="#1E2530" stroke-width="1"/>
+<text x="220" y="156.0" font-family="Helvetica, Arial, sans-serif" font-size="11" fill="#1E2530">Administrateur</text>
+<rect x="380" y="120" width="170" height="64" fill="#FFFFFF" stroke="#1E2530" stroke-width="1"/>
+<text x="390" y="156.0" font-family="Helvetica, Arial, sans-serif" font-size="11" fill="#1E2530">DBA, GRANT DBA + role_admin</text>
+<rect x="550" y="120" width="430" height="64" fill="#FFFFFF" stroke="#1E2530" stroke-width="1"/>
+<text x="560" y="138" font-family="Helvetica, Arial, sans-serif" font-size="10.3" fill="#1E2530">Toutes les tables (ALL PRIVILEGES) + creation</text>
+<text x="560" y="152" font-family="Helvetica, Arial, sans-serif" font-size="10.3" fill="#1E2530">table/vue/sequence/procedure/trigger</text>
+<rect x="30" y="184" width="180" height="64" fill="#FFFFFF" stroke="#1E2530" stroke-width="1"/>
+<text x="40" y="220.0" font-family="Helvetica, Arial, sans-serif" font-size="11.5" font-weight="700" fill="#2563EB">role_ventes</text>
+<rect x="210" y="184" width="170" height="64" fill="#FFFFFF" stroke="#1E2530" stroke-width="1"/>
+<text x="220" y="220.0" font-family="Helvetica, Arial, sans-serif" font-size="11" fill="#1E2530">Gestionnaire des ventes</text>
+<rect x="380" y="184" width="170" height="64" fill="#FFFFFF" stroke="#1E2530" stroke-width="1"/>
+<text x="390" y="220.0" font-family="Helvetica, Arial, sans-serif" font-size="11" fill="#1E2530">gestionnaire_cmd</text>
+<rect x="550" y="184" width="430" height="64" fill="#FFFFFF" stroke="#1E2530" stroke-width="1"/>
+<text x="560" y="202" font-family="Helvetica, Arial, sans-serif" font-size="10.3" fill="#1E2530">CLIENT, COMMANDE, LIGNE_COMMANDE (SELECT/INSERT/UPDATE) ·</text>
+<text x="560" y="216" font-family="Helvetica, Arial, sans-serif" font-size="10.3" fill="#1E2530">PRODUIT, STOCKS (SELECT) · EXECUTE pkg_gestion_commandes</text>
+<rect x="30" y="248" width="180" height="64" fill="#FFFFFF" stroke="#1E2530" stroke-width="1"/>
+<text x="40" y="284.0" font-family="Helvetica, Arial, sans-serif" font-size="11.5" font-weight="700" fill="#2563EB">role_consultation</text>
+<rect x="210" y="248" width="170" height="64" fill="#FFFFFF" stroke="#1E2530" stroke-width="1"/>
+<text x="220" y="284.0" font-family="Helvetica, Arial, sans-serif" font-size="11" fill="#1E2530">Consultation / Reporting</text>
+<rect x="380" y="248" width="170" height="64" fill="#FFFFFF" stroke="#1E2530" stroke-width="1"/>
+<text x="390" y="284.0" font-family="Helvetica, Arial, sans-serif" font-size="11" fill="#1E2530">lecteur_rapports</text>
+<rect x="550" y="248" width="430" height="64" fill="#FFFFFF" stroke="#1E2530" stroke-width="1"/>
+<text x="560" y="266" font-family="Helvetica, Arial, sans-serif" font-size="10.3" fill="#1E2530">Lecture seule (SELECT) sur DEPARTEMENT, EMPLOYE, CLIENT,</text>
+<text x="560" y="280" font-family="Helvetica, Arial, sans-serif" font-size="10.3" fill="#1E2530">PRODUIT, COMMANDE, LIGNE_COMMANDE, STOCKS, SALAIRES_MENSUELS</text>
+<rect x="30" y="312" width="180" height="64" fill="#FFFFFF" stroke="#1E2530" stroke-width="1"/>
+<text x="40" y="348.0" font-family="Helvetica, Arial, sans-serif" font-size="11.5" font-weight="700" fill="#2563EB">role_logistique</text>
+<rect x="210" y="312" width="170" height="64" fill="#FFFFFF" stroke="#1E2530" stroke-width="1"/>
+<text x="220" y="348.0" font-family="Helvetica, Arial, sans-serif" font-size="11" fill="#1E2530">Gestion des stocks</text>
+<rect x="380" y="312" width="170" height="64" fill="#FFFFFF" stroke="#1E2530" stroke-width="1"/>
+<text x="390" y="348.0" font-family="Helvetica, Arial, sans-serif" font-size="11" fill="#1E2530">—</text>
+<rect x="550" y="312" width="430" height="64" fill="#FFFFFF" stroke="#1E2530" stroke-width="1"/>
+<text x="560" y="330" font-family="Helvetica, Arial, sans-serif" font-size="10.3" fill="#1E2530">STOCKS, ENTREPOT (SELECT/INSERT/UPDATE) · PRODUIT,</text>
+<text x="560" y="344" font-family="Helvetica, Arial, sans-serif" font-size="10.3" fill="#1E2530">FOURNISSEUR, ALERTES_STOCK (SELECT) · EXECUTE</text>
+<text x="560" y="358" font-family="Helvetica, Arial, sans-serif" font-size="10.3" fill="#1E2530">verifier_stocks_dynamique</text>
+</svg>

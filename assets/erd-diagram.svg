@@ -1,0 +1,125 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1080 786" font-family="Helvetica, Arial, sans-serif">
+<rect x="0" y="0" width="1080" height="786" fill="#FFFFFF"/>
+<path d="M 140.0 210 L 140.0 228" stroke="#1E2530" stroke-width="1.1" fill="none"/>
+<path d="M 390.0 272 L 390.0 290" stroke="#1E2530" stroke-width="1.1" fill="none"/>
+<path d="M 485 339.0 L 545 259.0" stroke="#1E2530" stroke-width="1.1" fill="none"/>
+<path d="M 640.0 192 L 640.0 210" stroke="#1E2530" stroke-width="1.1" fill="none"/>
+<path d="M 390.0 192 L 140.0 476" stroke="#1E2530" stroke-width="1.1" fill="none"/>
+<path d="M 140.0 326 L 140.0 476" stroke="#1E2530" stroke-width="1.1" fill="none"/>
+<path d="M 140.0 574 L 140.0 592" stroke="#1E2530" stroke-width="1.1" fill="none"/>
+<path d="M 390.0 388 L 140.0 592" stroke="#1E2530" stroke-width="1.1" fill="none"/>
+<path d="M 140.0 210 L 390.0 672" stroke="#1E2530" stroke-width="1.1" fill="none"/>
+<path d="M 140.0 210 L 390.0 574" stroke="#1E2530" stroke-width="1.1" fill="none"/>
+<path d="M 140.0 326 L 640.0 476" stroke="#1E2530" stroke-width="1.1" fill="none"/>
+<path d="M 140.0 326 L 640.0 574" stroke="#1E2530" stroke-width="1.1" fill="none"/>
+<path d="M 140.0 326 L 640.0 112" stroke="#1E2530" stroke-width="1.1" fill="none"/>
+<text x="540.0" y="32" font-family="Helvetica, Arial, sans-serif" font-size="22" font-weight="700" fill="#1E2530" text-anchor="middle">Modele de Donnees — ERP Oracle</text>
+<text x="540.0" y="52" font-family="Helvetica, Arial, sans-serif" font-size="12.5" fill="#6B7280" text-anchor="middle">Entites principales regroupees par module fonctionnel</text>
+<rect x="30" y="78" width="220" height="22" fill="none" stroke="#1E2530" stroke-width="1" stroke-dasharray="2,3"/><text x="38" y="93" font-family="Helvetica, Arial, sans-serif" font-size="10.5" letter-spacing="1" fill="#6B7280" font-weight="700">MODULE RH</text>
+<rect x="45" y="112" width="190" height="98" fill="#FFFFFF" stroke="#1E2530" stroke-width="1.3"/>
+<rect x="45" y="112" width="190" height="26" fill="#F1F5F9" stroke="#1E2530" stroke-width="1.3"/>
+<text x="140.0" y="129.0" font-family="Helvetica, Arial, sans-serif" font-size="12.5" font-weight="700" fill="#1E2530" text-anchor="middle">DEPARTEMENT</text>
+<text x="55" y="151.0" font-family="Helvetica, Arial, sans-serif" font-size="10.5" fill="#2563EB">PK id_departement</text>
+<text x="55" y="169.0" font-family="Helvetica, Arial, sans-serif" font-size="10.5" fill="#1E2530">nom_departement</text>
+<text x="55" y="187.0" font-family="Helvetica, Arial, sans-serif" font-size="10.5" fill="#1E2530">budget_annuel</text>
+<text x="55" y="205.0" font-family="Helvetica, Arial, sans-serif" font-size="10.5" fill="#1E2530">responsable</text>
+<rect x="45" y="228" width="190" height="98" fill="#FFFFFF" stroke="#1E2530" stroke-width="1.3"/>
+<rect x="45" y="228" width="190" height="26" fill="#F1F5F9" stroke="#1E2530" stroke-width="1.3"/>
+<text x="140.0" y="245.0" font-family="Helvetica, Arial, sans-serif" font-size="12.5" font-weight="700" fill="#1E2530" text-anchor="middle">EMPLOYE</text>
+<text x="55" y="267.0" font-family="Helvetica, Arial, sans-serif" font-size="10.5" fill="#2563EB">PK id_employe</text>
+<text x="55" y="285.0" font-family="Helvetica, Arial, sans-serif" font-size="10.5" fill="#1E2530">matricule, nom, prenom</text>
+<text x="55" y="303.0" font-family="Helvetica, Arial, sans-serif" font-size="10.5" fill="#1E2530">salaire_base, poste</text>
+<text x="55" y="321.0" font-family="Helvetica, Arial, sans-serif" font-size="10.5" fill="#6B7280">FK id_departement</text>
+<rect x="280" y="78" width="220" height="22" fill="none" stroke="#1E2530" stroke-width="1" stroke-dasharray="2,3"/><text x="288" y="93" font-family="Helvetica, Arial, sans-serif" font-size="10.5" letter-spacing="1" fill="#6B7280" font-weight="700">MODULE COMMERCIAL</text>
+<rect x="295" y="112" width="190" height="80" fill="#FFFFFF" stroke="#1E2530" stroke-width="1.3"/>
+<rect x="295" y="112" width="190" height="26" fill="#F1F5F9" stroke="#1E2530" stroke-width="1.3"/>
+<text x="390.0" y="129.0" font-family="Helvetica, Arial, sans-serif" font-size="12.5" font-weight="700" fill="#1E2530" text-anchor="middle">CLIENT</text>
+<text x="305" y="151.0" font-family="Helvetica, Arial, sans-serif" font-size="10.5" fill="#2563EB">PK id_client</text>
+<text x="305" y="169.0" font-family="Helvetica, Arial, sans-serif" font-size="10.5" fill="#1E2530">nom, type_client</text>
+<text x="305" y="187.0" font-family="Helvetica, Arial, sans-serif" font-size="10.5" fill="#1E2530">email, telephone</text>
+<rect x="295" y="210" width="190" height="62" fill="#FFFFFF" stroke="#1E2530" stroke-width="1.3"/>
+<rect x="295" y="210" width="190" height="26" fill="#F1F5F9" stroke="#1E2530" stroke-width="1.3"/>
+<text x="390.0" y="227.0" font-family="Helvetica, Arial, sans-serif" font-size="12.5" font-weight="700" fill="#1E2530" text-anchor="middle">FOURNISSEUR</text>
+<text x="305" y="249.0" font-family="Helvetica, Arial, sans-serif" font-size="10.5" fill="#2563EB">PK id_fournisseur</text>
+<text x="305" y="267.0" font-family="Helvetica, Arial, sans-serif" font-size="10.5" fill="#1E2530">nom, email, telephone</text>
+<rect x="295" y="290" width="190" height="98" fill="#FFFFFF" stroke="#1E2530" stroke-width="1.3"/>
+<rect x="295" y="290" width="190" height="26" fill="#F1F5F9" stroke="#1E2530" stroke-width="1.3"/>
+<text x="390.0" y="307.0" font-family="Helvetica, Arial, sans-serif" font-size="12.5" font-weight="700" fill="#1E2530" text-anchor="middle">PRODUIT</text>
+<text x="305" y="329.0" font-family="Helvetica, Arial, sans-serif" font-size="10.5" fill="#2563EB">PK id_produit</text>
+<text x="305" y="347.0" font-family="Helvetica, Arial, sans-serif" font-size="10.5" fill="#1E2530">nom_produit, categorie</text>
+<text x="305" y="365.0" font-family="Helvetica, Arial, sans-serif" font-size="10.5" fill="#1E2530">prix_unitaire, seuil_alerte</text>
+<text x="305" y="383.0" font-family="Helvetica, Arial, sans-serif" font-size="10.5" fill="#6B7280">FK id_fournisseur</text>
+<rect x="530" y="78" width="220" height="22" fill="none" stroke="#1E2530" stroke-width="1" stroke-dasharray="2,3"/><text x="538" y="93" font-family="Helvetica, Arial, sans-serif" font-size="10.5" letter-spacing="1" fill="#6B7280" font-weight="700">MODULE STOCK</text>
+<rect x="545" y="112" width="190" height="80" fill="#FFFFFF" stroke="#1E2530" stroke-width="1.3"/>
+<rect x="545" y="112" width="190" height="26" fill="#F1F5F9" stroke="#1E2530" stroke-width="1.3"/>
+<text x="640.0" y="129.0" font-family="Helvetica, Arial, sans-serif" font-size="12.5" font-weight="700" fill="#1E2530" text-anchor="middle">ENTREPOT</text>
+<text x="555" y="151.0" font-family="Helvetica, Arial, sans-serif" font-size="10.5" fill="#2563EB">PK id_entrepot</text>
+<text x="555" y="169.0" font-family="Helvetica, Arial, sans-serif" font-size="10.5" fill="#1E2530">nom, localisation</text>
+<text x="555" y="187.0" font-family="Helvetica, Arial, sans-serif" font-size="10.5" fill="#6B7280">FK responsable_stock</text>
+<rect x="545" y="210" width="190" height="98" fill="#FFFFFF" stroke="#1E2530" stroke-width="1.3"/>
+<rect x="545" y="210" width="190" height="26" fill="#F1F5F9" stroke="#1E2530" stroke-width="1.3"/>
+<text x="640.0" y="227.0" font-family="Helvetica, Arial, sans-serif" font-size="12.5" font-weight="700" fill="#1E2530" text-anchor="middle">STOCKS</text>
+<text x="555" y="249.0" font-family="Helvetica, Arial, sans-serif" font-size="10.5" fill="#2563EB">PK id_mouvement</text>
+<text x="555" y="267.0" font-family="Helvetica, Arial, sans-serif" font-size="10.5" fill="#1E2530">quantite</text>
+<text x="555" y="285.0" font-family="Helvetica, Arial, sans-serif" font-size="10.5" fill="#6B7280">FK id_produit</text>
+<text x="555" y="303.0" font-family="Helvetica, Arial, sans-serif" font-size="10.5" fill="#6B7280">FK id_entrepot</text>
+<rect x="780" y="78" width="220" height="22" fill="none" stroke="#1E2530" stroke-width="1" stroke-dasharray="2,3"/><text x="788" y="93" font-family="Helvetica, Arial, sans-serif" font-size="10.5" letter-spacing="1" fill="#6B7280" font-weight="700">MODULE AUDIT</text>
+<rect x="795" y="112" width="190" height="80" fill="#FFFFFF" stroke="#1E2530" stroke-width="1.3"/>
+<rect x="795" y="112" width="190" height="26" fill="#F1F5F9" stroke="#1E2530" stroke-width="1.3"/>
+<text x="890.0" y="129.0" font-family="Helvetica, Arial, sans-serif" font-size="12.5" font-weight="700" fill="#1E2530" text-anchor="middle">AUDIT_LOG</text>
+<text x="805" y="151.0" font-family="Helvetica, Arial, sans-serif" font-size="10.5" fill="#2563EB">PK id_audit</text>
+<text x="805" y="169.0" font-family="Helvetica, Arial, sans-serif" font-size="10.5" fill="#1E2530">table_name, operation</text>
+<text x="805" y="187.0" font-family="Helvetica, Arial, sans-serif" font-size="10.5" fill="#1E2530">ancienne/nouvelle valeur</text>
+<rect x="795" y="210" width="190" height="80" fill="#FFFFFF" stroke="#1E2530" stroke-width="1.3"/>
+<rect x="795" y="210" width="190" height="26" fill="#F1F5F9" stroke="#1E2530" stroke-width="1.3"/>
+<text x="890.0" y="227.0" font-family="Helvetica, Arial, sans-serif" font-size="12.5" font-weight="700" fill="#1E2530" text-anchor="middle">ALERTES_STOCK</text>
+<text x="805" y="249.0" font-family="Helvetica, Arial, sans-serif" font-size="10.5" fill="#2563EB">PK id_alerte</text>
+<text x="805" y="267.0" font-family="Helvetica, Arial, sans-serif" font-size="10.5" fill="#1E2530">produit_nom, quantite</text>
+<text x="805" y="285.0" font-family="Helvetica, Arial, sans-serif" font-size="10.5" fill="#1E2530">seuil, date_alerte</text>
+<rect x="30" y="442" width="220" height="22" fill="none" stroke="#1E2530" stroke-width="1" stroke-dasharray="2,3"/><text x="38" y="457" font-family="Helvetica, Arial, sans-serif" font-size="10.5" letter-spacing="1" fill="#6B7280" font-weight="700">MODULE VENTES</text>
+<rect x="45" y="476" width="190" height="98" fill="#FFFFFF" stroke="#1E2530" stroke-width="1.3"/>
+<rect x="45" y="476" width="190" height="26" fill="#F1F5F9" stroke="#1E2530" stroke-width="1.3"/>
+<text x="140.0" y="493.0" font-family="Helvetica, Arial, sans-serif" font-size="12.5" font-weight="700" fill="#1E2530" text-anchor="middle">COMMANDE</text>
+<text x="55" y="515.0" font-family="Helvetica, Arial, sans-serif" font-size="10.5" fill="#2563EB">PK id_commande</text>
+<text x="55" y="533.0" font-family="Helvetica, Arial, sans-serif" font-size="10.5" fill="#1E2530">date_commande, statut</text>
+<text x="55" y="551.0" font-family="Helvetica, Arial, sans-serif" font-size="10.5" fill="#1E2530">montant_total</text>
+<text x="55" y="569.0" font-family="Helvetica, Arial, sans-serif" font-size="10.5" fill="#6B7280">FK id_client, id_employe</text>
+<rect x="45" y="592" width="190" height="80" fill="#FFFFFF" stroke="#1E2530" stroke-width="1.3"/>
+<rect x="45" y="592" width="190" height="26" fill="#F1F5F9" stroke="#1E2530" stroke-width="1.3"/>
+<text x="140.0" y="609.0" font-family="Helvetica, Arial, sans-serif" font-size="12.5" font-weight="700" fill="#1E2530" text-anchor="middle">LIGNE_COMMANDE</text>
+<text x="55" y="631.0" font-family="Helvetica, Arial, sans-serif" font-size="10.5" fill="#2563EB">PK id_ligne</text>
+<text x="55" y="649.0" font-family="Helvetica, Arial, sans-serif" font-size="10.5" fill="#1E2530">quantite, prix_unitaire</text>
+<text x="55" y="667.0" font-family="Helvetica, Arial, sans-serif" font-size="10.5" fill="#6B7280">FK id_commande, id_produit</text>
+<rect x="280" y="442" width="220" height="22" fill="none" stroke="#1E2530" stroke-width="1" stroke-dasharray="2,3"/><text x="288" y="457" font-family="Helvetica, Arial, sans-serif" font-size="10.5" letter-spacing="1" fill="#6B7280" font-weight="700">MODULE FINANCE</text>
+<rect x="295" y="476" width="190" height="80" fill="#FFFFFF" stroke="#1E2530" stroke-width="1.3"/>
+<rect x="295" y="476" width="190" height="26" fill="#F1F5F9" stroke="#1E2530" stroke-width="1.3"/>
+<text x="390.0" y="493.0" font-family="Helvetica, Arial, sans-serif" font-size="12.5" font-weight="700" fill="#1E2530" text-anchor="middle">COMPTE_BANCAIRE</text>
+<text x="305" y="515.0" font-family="Helvetica, Arial, sans-serif" font-size="10.5" fill="#2563EB">PK numero_compte</text>
+<text x="305" y="533.0" font-family="Helvetica, Arial, sans-serif" font-size="10.5" fill="#1E2530">banque, solde</text>
+<text x="305" y="551.0" font-family="Helvetica, Arial, sans-serif" font-size="10.5" fill="#1E2530">type_compte</text>
+<rect x="295" y="574" width="190" height="80" fill="#FFFFFF" stroke="#1E2530" stroke-width="1.3"/>
+<rect x="295" y="574" width="190" height="26" fill="#F1F5F9" stroke="#1E2530" stroke-width="1.3"/>
+<text x="390.0" y="591.0" font-family="Helvetica, Arial, sans-serif" font-size="12.5" font-weight="700" fill="#1E2530" text-anchor="middle">TRANSACTION</text>
+<text x="305" y="613.0" font-family="Helvetica, Arial, sans-serif" font-size="10.5" fill="#2563EB">PK id_transaction</text>
+<text x="305" y="631.0" font-family="Helvetica, Arial, sans-serif" font-size="10.5" fill="#1E2530">type, montant</text>
+<text x="305" y="649.0" font-family="Helvetica, Arial, sans-serif" font-size="10.5" fill="#6B7280">FK id_departement</text>
+<rect x="295" y="672" width="190" height="80" fill="#FFFFFF" stroke="#1E2530" stroke-width="1.3"/>
+<rect x="295" y="672" width="190" height="26" fill="#F1F5F9" stroke="#1E2530" stroke-width="1.3"/>
+<text x="390.0" y="689.0" font-family="Helvetica, Arial, sans-serif" font-size="12.5" font-weight="700" fill="#1E2530" text-anchor="middle">BUDGET</text>
+<text x="305" y="711.0" font-family="Helvetica, Arial, sans-serif" font-size="10.5" fill="#2563EB">PK id_budget</text>
+<text x="305" y="729.0" font-family="Helvetica, Arial, sans-serif" font-size="10.5" fill="#1E2530">montant_prevu/consomme</text>
+<text x="305" y="747.0" font-family="Helvetica, Arial, sans-serif" font-size="10.5" fill="#6B7280">FK id_departement</text>
+<rect x="530" y="442" width="220" height="22" fill="none" stroke="#1E2530" stroke-width="1" stroke-dasharray="2,3"/><text x="538" y="457" font-family="Helvetica, Arial, sans-serif" font-size="10.5" letter-spacing="1" fill="#6B7280" font-weight="700">MODULE PAIE</text>
+<rect x="545" y="476" width="190" height="80" fill="#FFFFFF" stroke="#1E2530" stroke-width="1.3"/>
+<rect x="545" y="476" width="190" height="26" fill="#F1F5F9" stroke="#1E2530" stroke-width="1.3"/>
+<text x="640.0" y="493.0" font-family="Helvetica, Arial, sans-serif" font-size="12.5" font-weight="700" fill="#1E2530" text-anchor="middle">SALAIRES_MENSUELS</text>
+<text x="555" y="515.0" font-family="Helvetica, Arial, sans-serif" font-size="10.5" fill="#2563EB">PK id_salaire</text>
+<text x="555" y="533.0" font-family="Helvetica, Arial, sans-serif" font-size="10.5" fill="#1E2530">montant_total, mois, annee</text>
+<text x="555" y="551.0" font-family="Helvetica, Arial, sans-serif" font-size="10.5" fill="#6B7280">FK id_employe</text>
+<rect x="545" y="574" width="190" height="80" fill="#FFFFFF" stroke="#1E2530" stroke-width="1.3"/>
+<rect x="545" y="574" width="190" height="26" fill="#F1F5F9" stroke="#1E2530" stroke-width="1.3"/>
+<text x="640.0" y="591.0" font-family="Helvetica, Arial, sans-serif" font-size="12.5" font-weight="700" fill="#1E2530" text-anchor="middle">PRIMES_*</text>
+<text x="555" y="613.0" font-family="Helvetica, Arial, sans-serif" font-size="10.5" fill="#2563EB">PK id_prime</text>
+<text x="555" y="631.0" font-family="Helvetica, Arial, sans-serif" font-size="10.5" fill="#1E2530">montant, mois, annee</text>
+<text x="555" y="649.0" font-family="Helvetica, Arial, sans-serif" font-size="10.5" fill="#6B7280">FK id_employe (3 tables)</text>
+</svg>

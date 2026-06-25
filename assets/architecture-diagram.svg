@@ -1,0 +1,77 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 828" font-family="Helvetica, Arial, sans-serif">
+<rect x="0" y="0" width="1000" height="828" fill="#FFFFFF"/>
+<text x="500.0" y="34" font-family="Helvetica, Arial, sans-serif" font-size="22" font-weight="700" fill="#1E2530" text-anchor="middle">Architecture du Systeme ERP</text>
+<text x="500.0" y="54" font-family="Helvetica, Arial, sans-serif" font-size="12.5" fill="#6B7280" text-anchor="middle">Oracle Database — Administration, Securite &amp; Programmation PL/SQL</text>
+<rect x="30" y="78" width="940" height="96" fill="none" stroke="#1E2530" stroke-width="1" stroke-dasharray="3,4"/><text x="42" y="94" font-family="Helvetica, Arial, sans-serif" font-size="11" letter-spacing="1.2" fill="#6B7280" font-weight="700">01  UTILISATEURS ET ROLES</text>
+<rect x="192.5" y="104.0" width="130.0" height="46" fill="#F8FAFC" stroke="#1E2530" stroke-width="1.2"/>
+<text x="257.5" y="123" font-family="Helvetica, Arial, sans-serif" font-size="12.5" font-weight="600" fill="#1E2530" text-anchor="middle">ADMIN</text>
+<text x="257.5" y="138" font-family="Helvetica, Arial, sans-serif" font-size="11" fill="#6B7280" text-anchor="middle">controle total</text>
+<rect x="336.5" y="104.0" width="158.0" height="46" fill="#F8FAFC" stroke="#1E2530" stroke-width="1.2"/>
+<text x="415.5" y="123" font-family="Helvetica, Arial, sans-serif" font-size="12.5" font-weight="600" fill="#1E2530" text-anchor="middle">GESTIONNAIRE</text>
+<text x="415.5" y="138" font-family="Helvetica, Arial, sans-serif" font-size="11" fill="#6B7280" text-anchor="middle">ventes / commandes</text>
+<rect x="508.5" y="104.0" width="120.0" height="46" fill="#F8FAFC" stroke="#1E2530" stroke-width="1.2"/>
+<text x="568.5" y="123" font-family="Helvetica, Arial, sans-serif" font-size="12.5" font-weight="600" fill="#1E2530" text-anchor="middle">COMPTABLE</text>
+<text x="568.5" y="138" font-family="Helvetica, Arial, sans-serif" font-size="11" fill="#6B7280" text-anchor="middle">paiements</text>
+<rect x="642.5" y="104.0" width="165.0" height="46" fill="#F8FAFC" stroke="#1E2530" stroke-width="1.2"/>
+<text x="725.0" y="123" font-family="Helvetica, Arial, sans-serif" font-size="12.5" font-weight="600" fill="#1E2530" text-anchor="middle">LECTEUR</text>
+<text x="725.0" y="138" font-family="Helvetica, Arial, sans-serif" font-size="11" fill="#6B7280" text-anchor="middle">rapports en lecture</text>
+<line x1="500.0" y1="174" x2="500.0" y2="194" stroke="#2563EB" stroke-width="1.6"/><path d="M 495.0 194 L 505.0 194 L 500.0 202 Z" fill="#2563EB"/>
+<rect x="30" y="202" width="940" height="96" fill="none" stroke="#1E2530" stroke-width="1" stroke-dasharray="3,4"/><text x="42" y="218" font-family="Helvetica, Arial, sans-serif" font-size="11" letter-spacing="1.2" fill="#6B7280" font-weight="700">02  SECURITE — ROLES, PRIVILEGES ET VUES</text>
+<rect x="159.5" y="228.0" width="130.0" height="46" fill="#F8FAFC" stroke="#1E2530" stroke-width="1.2"/>
+<text x="224.5" y="247" font-family="Helvetica, Arial, sans-serif" font-size="12.5" font-weight="600" fill="#1E2530" text-anchor="middle">role_admin</text>
+<text x="224.5" y="262" font-family="Helvetica, Arial, sans-serif" font-size="11" fill="#6B7280" text-anchor="middle">ALL PRIVILEGES</text>
+<rect x="303.5" y="228.0" width="200.0" height="46" fill="#F8FAFC" stroke="#1E2530" stroke-width="1.2"/>
+<text x="403.5" y="247" font-family="Helvetica, Arial, sans-serif" font-size="12.5" font-weight="600" fill="#1E2530" text-anchor="middle">role_ventes</text>
+<text x="403.5" y="262" font-family="Helvetica, Arial, sans-serif" font-size="11" fill="#6B7280" text-anchor="middle">SELECT / INSERT / UPDATE</text>
+<rect x="517.5" y="228.0" width="151.0" height="46" fill="#F8FAFC" stroke="#1E2530" stroke-width="1.2"/>
+<text x="593.0" y="247" font-family="Helvetica, Arial, sans-serif" font-size="12.5" font-weight="600" fill="#1E2530" text-anchor="middle">role_consultation</text>
+<text x="593.0" y="262" font-family="Helvetica, Arial, sans-serif" font-size="11" fill="#6B7280" text-anchor="middle">SELECT seulement</text>
+<rect x="682.5" y="228.0" width="158.0" height="46" fill="#F8FAFC" stroke="#1E2530" stroke-width="1.2"/>
+<text x="761.5" y="247" font-family="Helvetica, Arial, sans-serif" font-size="12.5" font-weight="600" fill="#1E2530" text-anchor="middle">role_logistique</text>
+<text x="761.5" y="262" font-family="Helvetica, Arial, sans-serif" font-size="11" fill="#6B7280" text-anchor="middle">stocks / entrepots</text>
+<line x1="500.0" y1="298" x2="500.0" y2="318" stroke="#2563EB" stroke-width="1.6"/><path d="M 495.0 318 L 505.0 318 L 500.0 326 Z" fill="#2563EB"/>
+<rect x="30" y="326" width="940" height="150" fill="none" stroke="#1E2530" stroke-width="1" stroke-dasharray="3,4"/><text x="42" y="342" font-family="Helvetica, Arial, sans-serif" font-size="11" letter-spacing="1.2" fill="#6B7280" font-weight="700">03  LOGIQUE METIER — PL/SQL</text>
+<rect x="67.0" y="352.0" width="319.0" height="54" fill="#F8FAFC" stroke="#1E2530" stroke-width="1.2"/>
+<text x="226.5" y="371" font-family="Helvetica, Arial, sans-serif" font-size="12.5" font-weight="600" fill="#1E2530" text-anchor="middle">Procedures</text>
+<text x="226.5" y="386" font-family="Helvetica, Arial, sans-serif" font-size="11" fill="#6B7280" text-anchor="middle">passer_commande, calculer_salaire_mensuel</text>
+<rect x="400.0" y="352.0" width="291.0" height="54" fill="#F8FAFC" stroke="#1E2530" stroke-width="1.2"/>
+<text x="545.5" y="371" font-family="Helvetica, Arial, sans-serif" font-size="12.5" font-weight="600" fill="#1E2530" text-anchor="middle">Fonctions</text>
+<text x="545.5" y="386" font-family="Helvetica, Arial, sans-serif" font-size="11" fill="#6B7280" text-anchor="middle">calcul_total_commande, verifier_stock</text>
+<rect x="705.0" y="352.0" width="228.0" height="54" fill="#F8FAFC" stroke="#1E2530" stroke-width="1.2"/>
+<text x="819.0" y="371" font-family="Helvetica, Arial, sans-serif" font-size="12.5" font-weight="600" fill="#1E2530" text-anchor="middle">Triggers</text>
+<text x="819.0" y="386" font-family="Helvetica, Arial, sans-serif" font-size="11" fill="#6B7280" text-anchor="middle">audit, maj_stock, validation</text>
+<rect x="277.5" y="418.0" width="445.0" height="40" fill="#F8FAFC" stroke="#1E2530" stroke-width="1.2"/>
+<text x="500.0" y="437" font-family="Helvetica, Arial, sans-serif" font-size="12" font-weight="600" fill="#1E2530" text-anchor="middle">PACKAGE pkg_gestion_commandes</text>
+<text x="500.0" y="452" font-family="Helvetica, Arial, sans-serif" font-size="10.5" fill="#6B7280" text-anchor="middle">creer_commande · valider_stock_disponible · generer_facture</text>
+<line x1="500.0" y1="476" x2="500.0" y2="496" stroke="#2563EB" stroke-width="1.6"/><path d="M 495.0 496 L 505.0 496 L 500.0 504 Z" fill="#2563EB"/>
+<rect x="30" y="504" width="940" height="170" fill="none" stroke="#1E2530" stroke-width="1" stroke-dasharray="3,4"/><text x="42" y="520" font-family="Helvetica, Arial, sans-serif" font-size="11" letter-spacing="1.2" fill="#6B7280" font-weight="700">04  DONNEES — ORACLE DATABASE (MODULES)</text>
+<rect x="200.0" y="530.0" width="179.0" height="54" fill="#F8FAFC" stroke="#1E2530" stroke-width="1.2"/>
+<text x="289.5" y="549" font-family="Helvetica, Arial, sans-serif" font-size="12" font-weight="600" fill="#1E2530" text-anchor="middle">RH</text>
+<text x="289.5" y="564" font-family="Helvetica, Arial, sans-serif" font-size="10" fill="#6B7280" text-anchor="middle">DEPARTEMENT · EMPLOYE</text>
+<rect x="393.0" y="530.0" width="242.0" height="54" fill="#F8FAFC" stroke="#1E2530" stroke-width="1.2"/>
+<text x="514.0" y="549" font-family="Helvetica, Arial, sans-serif" font-size="12" font-weight="600" fill="#1E2530" text-anchor="middle">Commercial</text>
+<text x="514.0" y="564" font-family="Helvetica, Arial, sans-serif" font-size="10" fill="#6B7280" text-anchor="middle">CLIENT · FOURNISSEUR · PRODUIT</text>
+<rect x="649.0" y="530.0" width="151.0" height="54" fill="#F8FAFC" stroke="#1E2530" stroke-width="1.2"/>
+<text x="724.5" y="549" font-family="Helvetica, Arial, sans-serif" font-size="12" font-weight="600" fill="#1E2530" text-anchor="middle">Stock</text>
+<text x="724.5" y="564" font-family="Helvetica, Arial, sans-serif" font-size="10" fill="#6B7280" text-anchor="middle">ENTREPOT · STOCKS</text>
+<rect x="130.0" y="600.0" width="207.0" height="54" fill="#F8FAFC" stroke="#1E2530" stroke-width="1.2"/>
+<text x="233.5" y="619" font-family="Helvetica, Arial, sans-serif" font-size="12" font-weight="600" fill="#1E2530" text-anchor="middle">Ventes</text>
+<text x="233.5" y="634" font-family="Helvetica, Arial, sans-serif" font-size="10" fill="#6B7280" text-anchor="middle">COMMANDE · LIGNE_COMMANDE</text>
+<rect x="351.0" y="600.0" width="298.0" height="54" fill="#F8FAFC" stroke="#1E2530" stroke-width="1.2"/>
+<text x="500.0" y="619" font-family="Helvetica, Arial, sans-serif" font-size="12" font-weight="600" fill="#1E2530" text-anchor="middle">Finance</text>
+<text x="500.0" y="634" font-family="Helvetica, Arial, sans-serif" font-size="10" fill="#6B7280" text-anchor="middle">COMPTE_BANCAIRE · BUDGET · TRANSACTION</text>
+<rect x="663.0" y="600.0" width="207.0" height="54" fill="#F8FAFC" stroke="#1E2530" stroke-width="1.2"/>
+<text x="766.5" y="619" font-family="Helvetica, Arial, sans-serif" font-size="12" font-weight="600" fill="#1E2530" text-anchor="middle">Audit</text>
+<text x="766.5" y="634" font-family="Helvetica, Arial, sans-serif" font-size="10" fill="#6B7280" text-anchor="middle">AUDIT_LOG · ALERTES_STOCK</text>
+<line x1="500.0" y1="674" x2="500.0" y2="694" stroke="#2563EB" stroke-width="1.6"/><path d="M 495.0 694 L 505.0 694 L 500.0 702 Z" fill="#2563EB"/>
+<rect x="30" y="702" width="940" height="96" fill="none" stroke="#1E2530" stroke-width="1" stroke-dasharray="3,4"/><text x="42" y="718" font-family="Helvetica, Arial, sans-serif" font-size="11" letter-spacing="1.2" fill="#6B7280" font-weight="700">05  EXPLOITATION — OPTIMISATION ET SAUVEGARDE</text>
+<rect x="196.5" y="728.0" width="228.0" height="46" fill="#F8FAFC" stroke="#1E2530" stroke-width="1.2"/>
+<text x="310.5" y="747" font-family="Helvetica, Arial, sans-serif" font-size="12.5" font-weight="600" fill="#1E2530" text-anchor="middle">Indexation</text>
+<text x="310.5" y="762" font-family="Helvetica, Arial, sans-serif" font-size="11" fill="#6B7280" text-anchor="middle">cles etrangeres + composites</text>
+<rect x="438.5" y="728.0" width="193.0" height="46" fill="#F8FAFC" stroke="#1E2530" stroke-width="1.2"/>
+<text x="535.0" y="747" font-family="Helvetica, Arial, sans-serif" font-size="12.5" font-weight="600" fill="#1E2530" text-anchor="middle">RMAN Sauvegarde</text>
+<text x="535.0" y="762" font-family="Helvetica, Arial, sans-serif" font-size="11" fill="#6B7280" text-anchor="middle">complete + incrementale</text>
+<rect x="645.5" y="728.0" width="158.0" height="46" fill="#F8FAFC" stroke="#1E2530" stroke-width="1.2"/>
+<text x="724.5" y="747" font-family="Helvetica, Arial, sans-serif" font-size="12.5" font-weight="600" fill="#1E2530" text-anchor="middle">Retention</text>
+<text x="724.5" y="762" font-family="Helvetica, Arial, sans-serif" font-size="11" fill="#6B7280" text-anchor="middle">fenetre de 7 jours</text>
+</svg>
