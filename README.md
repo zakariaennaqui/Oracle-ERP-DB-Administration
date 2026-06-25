@@ -245,8 +245,8 @@ Une fenêtre de rétention de 7 jours garantit la possibilité de restauration �
 
 Le dossier `ERP - Gestion des Ressources d'Entreprise/` contient les livrables académiques associés au projet :
 
-- **`rapport.docx` / `rapport.pdf`** — rapport complet couvrant le contexte, la conception (MCD/MLD), l'implémentation, la programmation PL/SQL, la sécurité, l'optimisation, les tests et la conclusion.
-- **`presentation.pptx`** — support de soutenance (11 diapositives) reprenant le contexte, la modélisation, les scénarios fonctionnels avancés, la sécurité et la politique de sauvegarde.
+- **`rapport.docx`** — rapport complet couvrant le contexte, la conception (MCD/MLD), l'implémentation, la programmation PL/SQL, la sécurité, l'optimisation, les tests et la conclusion.
+- **`presentation.pptx`** — support reprenant le contexte, la modélisation, les scénarios fonctionnels avancés, la sécurité et la politique de sauvegarde.
 
 ---
 
@@ -285,20 +285,6 @@ Pour le schéma étendu, exécuter `oracle_db_complete.sql` puis `oracle_admin_s
 
 ---
 
-## Équipe et encadrement
-
-| | |
-|---|---|
-| **Établissement** | École Nationale des Sciences Appliquées de Berrechid — Université Hassan 1er |
-| **Filière** | Génie Informatique — Semestre 7 |
-| **Module** | Administration des Bases de Données |
-| **Encadrante** | Pr. Imane Sahmi |
-| **Réalisé par** | Zakaria Ennaqui · Abderrahmane Chiguer |
-| **Année universitaire** | 2025 / 2026 |
-
----
-
 ## Références
 
-- Sahmi, I. (2025). *Support de cours — Administration des Bases de Données*, ENSA Berrechid, Université Hassan 1er.
 - Oracle Corporation. *Oracle Database 21c Documentation* — [docs.oracle.com](https://docs.oracle.com/en/database/oracle/oracle-database/21/)
