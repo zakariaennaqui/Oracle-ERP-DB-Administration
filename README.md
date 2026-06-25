@@ -10,7 +10,7 @@
 
 </div>
 
-<img src="assets/hero-banner.svg" width="100%" alt="Oracle ERP — DB Administration">
+<img src="assets/hero-banner.svg" height="100" width="100%" alt="Oracle ERP — DB Administration">
 
 Projet d'administration de base de données réalisé dans le cadre du module **Administration des Bases de Données** (Filière Génie Informatique, Semestre 7) à l'**École Nationale des Sciences Appliquées de Berrechid** — Université Hassan 1er.
 
