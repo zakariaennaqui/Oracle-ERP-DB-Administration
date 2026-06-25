@@ -7,6 +7,7 @@
 <img src="https://e7.pngegg.com/pngimages/219/411/png-clipart-docker-logo-kubernetes-microservices-cloud-computing-dockers-logo-text-logo.png" height="100" width="150"/>
 <img src="https://upload.wikimedia.org/wikipedia/commons/3/35/Tux.svg" height="100" width="100"/>
 <img src="https://oralytics.com/wp-content/uploads/2022/10/pl-sql_icon-1.png?w=1250&h=" height="100" width="100"/>
+<img src="https://upload.wikimedia.org/wikipedia/commons/5/51/Windows_terminal_logo.svg" height="100" width="100"/>
 
 </div>
 
