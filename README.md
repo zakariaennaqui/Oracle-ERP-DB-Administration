@@ -280,8 +280,6 @@ Ordre d'exécution recommandé pour l'implémentation modulaire (`erp_project/`)
 
 Pour le schéma étendu, exécuter `oracle_db_complete.sql` puis `oracle_admin_scripts.sql` dans une instance dédiée.
 
-> Remplacer les mots de passe des utilisateurs créés par les scripts avant toute exécution hors environnement académique.
-
 ---
 
 ## Références
