@@ -2,13 +2,6 @@
 
 <img src="assets/hero-banner.svg" width="100%" alt="Oracle ERP — DB Administration">
 
-![Oracle](https://img.shields.io/badge/Oracle%20Database-21c-F80000?style=flat-square&logo=oracle&logoColor=white)
-![PLSQL](https://img.shields.io/badge/PL%2FSQL-Procedures%20%7C%20Functions%20%7C%20Triggers-1E2530?style=flat-square)
-![RMAN](https://img.shields.io/badge/Backup-RMAN-1E2530?style=flat-square)
-![Security](https://img.shields.io/badge/Security-RBAC-1E2530?style=flat-square)
-![License](https://img.shields.io/badge/License-Academic%20Project-1E2530?style=flat-square)
-![Status](https://img.shields.io/badge/Status-Completed-2EA44F?style=flat-square)
-
 Projet d'administration de base de données réalisé dans le cadre du module **Administration des Bases de Données** (Filière Génie Informatique, Semestre 7) à l'**École Nationale des Sciences Appliquées de Berrechid** — Université Hassan 1er.
 
 Le projet couvre l'ensemble du cycle de vie d'une base de données Oracle au service d'un **ERP (Enterprise Resource Planning)** : conception du modèle de données, implémentation DDL/DML, programmation PL/SQL (procédures, fonctions, triggers, package), gestion des utilisateurs et des privilèges, optimisation par indexation, et stratégie de sauvegarde/restauration avec RMAN.
