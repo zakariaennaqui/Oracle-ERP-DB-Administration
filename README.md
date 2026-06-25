@@ -4,7 +4,7 @@
 
 <img src="https://www.schneider.im/media/2022/03/SCHNEIDER-IT-MANAGEMENT-2023-11-01-Website-Oracle-Database.jpg" height="100" width="100"/>
 <img src="https://ba6.us/media/posts/282/responsive/sql-developer-md.png" height="100" width="100"/>
-<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/1e/Docker_Logo.png/1920px-Docker_Logo.png" height="100" width="150"/>
+<img src="https://e7.pngegg.com/pngimages/219/411/png-clipart-docker-logo-kubernetes-microservices-cloud-computing-dockers-logo-text-logo.png" height="100" width="150"/>
 <img src="https://upload.wikimedia.org/wikipedia/commons/3/35/Tux.svg" height="100" width="100"/>
 
 </div>
