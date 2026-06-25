@@ -2,7 +2,7 @@
 
 <div align="center">
 
-<img src="https://upload.wikimedia.org/wikipedia/commons/5/50/Oracle_logo.svg" height="100" width="100"/>
+<img src="https://www.schneider.im/media/2022/03/SCHNEIDER-IT-MANAGEMENT-2023-11-01-Website-Oracle-Database.jpg" height="100" width="100"/>
 <img src="https://ba6.us/media/posts/282/responsive/sql-developer-md.png" height="100" width="100"/>
 <img src="https://upload.wikimedia.org/wikipedia/commons/4/4e/Docker_%28container_engine%29_logo.svg" height="100" width="150"/>
 <img src="https://upload.wikimedia.org/wikipedia/commons/3/35/Tux.svg" height="100" width="100"/>
