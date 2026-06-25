@@ -1,10 +1,13 @@
 # Oracle ERP — DB Administration
 
-![Oracle](https://img.shields.io/badge/Oracle%20Database-21c-1E2530?style=flat-square)
+<img src="assets/hero-banner.svg" width="100%" alt="Oracle ERP — DB Administration">
+
+![Oracle](https://img.shields.io/badge/Oracle%20Database-21c-F80000?style=flat-square&logo=oracle&logoColor=white)
 ![PLSQL](https://img.shields.io/badge/PL%2FSQL-Procedures%20%7C%20Functions%20%7C%20Triggers-1E2530?style=flat-square)
 ![RMAN](https://img.shields.io/badge/Backup-RMAN-1E2530?style=flat-square)
+![Security](https://img.shields.io/badge/Security-RBAC-1E2530?style=flat-square)
 ![License](https://img.shields.io/badge/License-Academic%20Project-1E2530?style=flat-square)
-![Status](https://img.shields.io/badge/Status-Completed-1E2530?style=flat-square)
+![Status](https://img.shields.io/badge/Status-Completed-2EA44F?style=flat-square)
 
 Projet d'administration de base de données réalisé dans le cadre du module **Administration des Bases de Données** (Filière Génie Informatique, Semestre 7) à l'**École Nationale des Sciences Appliquées de Berrechid** — Université Hassan 1er.
 
@@ -52,6 +55,14 @@ Le dépôt contient **deux implémentations complémentaires** du même cas d'us
 ---
 
 ## Stack technique
+
+<p>
+<img src="https://img.shields.io/badge/Oracle-F80000?style=for-the-badge&logo=oracle&logoColor=white" alt="Oracle">
+<img src="https://img.shields.io/badge/PL%2FSQL-1E2530?style=for-the-badge" alt="PL/SQL">
+<img src="https://img.shields.io/badge/SQL*Plus-1E2530?style=for-the-badge" alt="SQL*Plus">
+<img src="https://img.shields.io/badge/RMAN-1E2530?style=for-the-badge" alt="RMAN">
+<img src="https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black" alt="Linux">
+</p>
 
 | Composant | Rôle |
 |---|---|
