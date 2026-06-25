@@ -48,14 +48,6 @@ Le dépôt contient **deux implémentations complémentaires** du même cas d'us
 
 ## Stack technique
 
-<p>
-<img src="https://img.shields.io/badge/Oracle-F80000?style=for-the-badge&logo=oracle&logoColor=white" alt="Oracle">
-<img src="https://img.shields.io/badge/PL%2FSQL-1E2530?style=for-the-badge" alt="PL/SQL">
-<img src="https://img.shields.io/badge/SQL*Plus-1E2530?style=for-the-badge" alt="SQL*Plus">
-<img src="https://img.shields.io/badge/RMAN-1E2530?style=for-the-badge" alt="RMAN">
-<img src="https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black" alt="Linux">
-</p>
-
 | Composant | Rôle |
 |---|---|
 | **Oracle Database 21c** | Système de gestion de base de données relationnel-objet |
