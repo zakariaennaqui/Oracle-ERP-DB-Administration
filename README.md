@@ -22,7 +22,6 @@ Le projet couvre l'ensemble du cycle de vie d'une base de données Oracle au ser
 - [Tests](#tests)
 - [Documentation et livrables](#documentation-et-livrables)
 - [Installation et mise en route](#installation-et-mise-en-route)
-- [Équipe et encadrement](#équipe-et-encadrement)
 - [Références](#références)
 
 ---
