@@ -1,5 +1,14 @@
 # Oracle ERP — DB Administration
 
+<div align="center">
+
+<img src="https://upload.wikimedia.org/wikipedia/commons/5/50/Oracle_logo.svg" height="100" width="100"/>
+<img src="https://upload.wikimedia.org/wikipedia/commons/8/87/Oracle_SQL_Developer_logo.svg" height="100" width="100"/>
+<img src="https://upload.wikimedia.org/wikipedia/commons/4/4e/Docker_%28container_engine%29_logo.svg" height="100" width="150"/>
+<img src="https://upload.wikimedia.org/wikipedia/commons/3/35/Tux.svg" height="100" width="100"/>
+
+</div>
+
 <img src="assets/hero-banner.svg" width="100%" alt="Oracle ERP — DB Administration">
 
 Projet d'administration de base de données réalisé dans le cadre du module **Administration des Bases de Données** (Filière Génie Informatique, Semestre 7) à l'**École Nationale des Sciences Appliquées de Berrechid** — Université Hassan 1er.
