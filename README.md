@@ -3,7 +3,7 @@
 <div align="center">
 
 <img src="https://upload.wikimedia.org/wikipedia/commons/5/50/Oracle_logo.svg" height="100" width="100"/>
-<img src="https://upload.wikimedia.org/wikipedia/commons/8/87/Oracle_SQL_Developer_logo.svg" height="100" width="100"/>
+<img src="https://ba6.us/media/posts/282/responsive/sql-developer-md.png" height="100" width="100"/>
 <img src="https://upload.wikimedia.org/wikipedia/commons/4/4e/Docker_%28container_engine%29_logo.svg" height="100" width="150"/>
 <img src="https://upload.wikimedia.org/wikipedia/commons/3/35/Tux.svg" height="100" width="100"/>
 
